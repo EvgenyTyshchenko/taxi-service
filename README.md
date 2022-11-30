@@ -8,12 +8,16 @@ Maintain a list, add, remove drivers, as well as attach / detach drivers to a sp
 
 ### Using technologies and designs
 * Dependency injection
-* Java Servlet
-* JDBC 
+* Java Servlet 4.0.1
+* JDBC
+* JDK 11
 * JSP
-* Maven
+* Maven 4.0.0
+* MySQL 8.0.22
+* Tomcat 9.0.50
+
+### Using design patterns
 * N-tier architecture
-* Tomcat
 * SOLID
 
 ### Project structure
@@ -23,11 +27,11 @@ Project structure is represented by N-tier architecture and consists 3 levels:
 * DAO
 
 ### Instructions
+1. Install and configure Tomcat server (recommended to use version 9.0.50)
+2. Clone this project from
+3. Create DB schema and tables using scripts in /resources/init_db.sql file
+4. Change connection parameters in file /util/ConnectionUtil.java
+5. Run and enjoy
 
-Install and configure Tomcat server (recommended to use version 9.0.50)
-Clone this project from
-Create DB schema and tables using scripts in /resources/init_db.sql file  
-Change connection parameters in file /util/ConnectionUtil.java
-Run and enjoy
-
-Cell. phone for job offers: +38 050 444-81-57 Yevhen
+### DB UML-diagram
+![whole schema_1](DB_UML_diagram.jpg)

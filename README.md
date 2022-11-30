@@ -1,1 +1,33 @@
-# taxi-service
+# Taxi-service
+
+This is a simple web-application that allows authenticated users to keep records of cars and drivers for small Taxi services.
+
+Allows you to display a list of cars, manufacturers and drivers. It is possible to add new  
+manufacturers with the indication of the country production, add new vehicles with model and manufacturer.   
+Maintain a list, add, remove drivers, as well as attach / detach drivers to a specific car.
+
+### Using technologies and designs
+* Dependency injection
+* Java Servlet
+* JDBC 
+* JSP
+* Maven
+* N-tier architecture
+* Tomcat
+* SOLID
+
+### Project structure
+Project structure is represented by N-tier architecture and consists 3 levels:
+* Controllers
+* Service
+* DAO
+
+### Instructions
+
+Install and configure Tomcat server (recommended to use version 9.0.50)
+Clone this project from
+Create DB schema and tables using scripts in /resources/init_db.sql file  
+Change connection parameters in file /util/ConnectionUtil.java
+Run and enjoy
+
+Cell. phone for job offers: +38 050 444-81-57 Yevhen

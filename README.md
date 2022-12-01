@@ -6,7 +6,7 @@ Allows you to display a list of cars, manufacturers and drivers. It is possible 
 manufacturers with the indication of the country production, add new vehicles with model and manufacturer.   
 Maintain a list, add, remove drivers, as well as attach / detach drivers to a specific car.
 
-### Using technologies and designs
+### Using technologies
 * Dependency injection
 * Java Servlet 4.0.1
 * JDBC
@@ -28,7 +28,7 @@ Project structure is represented by N-tier architecture and consists 3 levels:
 
 ### Instructions
 1. Install and configure Tomcat server (recommended to use version 9.0.50)
-2. Clone this project from
+2. Clone this project from Git
 3. Create DB schema and tables using scripts in /resources/init_db.sql file
 4. Change connection parameters in file /util/ConnectionUtil.java
 5. Run and enjoy
